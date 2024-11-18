@@ -69,11 +69,11 @@ importers:
         specifier: ^0.1.6
         version: 0.1.6
       thingy-post-rpc-client:
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.0.5
+        version: 0.0.5
       thingy-rpc-authmaster-client:
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^0.0.8
+        version: 0.0.8
       thingymodulecreate:
         specifier: ^0.1.8
         version: 0.1.8
@@ -985,6 +985,9 @@ packages:
   fastest-levenshtein@1.0.16:
     resolution: {integrity: sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==}
     engines: {node: '>= 4.9.1'}
+
+  feistelled-reduced-aes-core@0.0.1:
+    resolution: {integrity: sha512-d2iSRCb/t25lQ0fSGkXxYOxmt5cf63qse1NRa6FjEhNGiTEXm+qfVhKb6B6ZQHDhRxFiGvaMe7cmx4C1JuT7dw==}
 
   figures@3.2.0:
     resolution: {integrity: sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==}
@@ -2374,11 +2377,11 @@ packages:
     resolution: {integrity: sha512-/YvGbX5H9uBmQTnlMF4i5UyWu46scAhUF9XTNzlhvIRrEsDCVyhS1afNlC2+qlQ7jgNeWNl2boexDK6e9vGHDA==}
     hasBin: true
 
-  thingy-post-rpc-client@0.0.2:
-    resolution: {integrity: sha512-MEphUWrPwCk+zWnXPQ90zjadUK1aUdxNR6AUcSfzcAQ1jRHpwYCfkX6YC5o7csHHBcqwTyUOV5n2m5oSQmK5qQ==}
+  thingy-post-rpc-client@0.0.5:
+    resolution: {integrity: sha512-H+FEx6vpIYm4hxcEpiSbaTpAKtLQZ4KTr4nowcNdEXKH7brb+ndG0skcMP8bii6TrImnBA//AqUNssHx83gnsA==}
 
-  thingy-rpc-authmaster-client@0.0.4:
-    resolution: {integrity: sha512-HeXGUz2+GgtvrIJ33FJcHbzg+3N85HXKd/UMTdbFpSaGR54uNSjOMVSQZ2FBFtX6tBp6JzPHPBstzcjOLqucdA==}
+  thingy-rpc-authmaster-client@0.0.8:
+    resolution: {integrity: sha512-ekedkTBgXIuABg1GcJnvb/aWXchgrcls/7RfEQzwgfbGhOnHtyeT9SV8OaxHpRh6gk+M/ufpyS8qahZqLimzeQ==}
 
   thingy-session-utils@0.0.5:
     resolution: {integrity: sha512-LkZc5gT6NAhUG4WxtchygmPDSx2oukV2cQ63n3+Zym1tAGjUsUe2bg6pJB2++afA7pKbW64nZwgMYTSa8OAkaA==}
@@ -3773,6 +3776,8 @@ snapshots:
   fast-levenshtein@2.0.6: {}
 
   fastest-levenshtein@1.0.16: {}
+
+  feistelled-reduced-aes-core@0.0.1: {}
 
   figures@3.2.0:
     dependencies:
@@ -5335,15 +5340,17 @@ snapshots:
       meow: 10.1.5
       mustache: 4.2.0
 
-  thingy-post-rpc-client@0.0.2:
+  thingy-post-rpc-client@0.0.5:
     dependencies:
+      feistelled-reduced-aes-core: 0.0.1
       secret-manager-crypto-utils: 0.3.0
+      thingy-byte-utils: 0.0.8
       thingy-session-utils: 0.0.5
       validatabletimestamp: 0.0.1
 
-  thingy-rpc-authmaster-client@0.0.4:
+  thingy-rpc-authmaster-client@0.0.8:
     dependencies:
-      thingy-post-rpc-client: 0.0.2
+      thingy-post-rpc-client: 0.0.5
 
   thingy-session-utils@0.0.5:
     dependencies:
