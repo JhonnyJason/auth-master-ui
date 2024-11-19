@@ -69,11 +69,11 @@ importers:
         specifier: ^0.1.6
         version: 0.1.6
       thingy-post-rpc-client:
-        specifier: ^0.0.5
-        version: 0.0.5
+        specifier: ^0.0.6
+        version: 0.0.6
       thingy-rpc-authmaster-client:
-        specifier: ^0.0.8
-        version: 0.0.8
+        specifier: ^0.0.9
+        version: 0.0.9
       thingymodulecreate:
         specifier: ^0.1.8
         version: 0.1.8
@@ -2377,11 +2377,11 @@ packages:
     resolution: {integrity: sha512-/YvGbX5H9uBmQTnlMF4i5UyWu46scAhUF9XTNzlhvIRrEsDCVyhS1afNlC2+qlQ7jgNeWNl2boexDK6e9vGHDA==}
     hasBin: true
 
-  thingy-post-rpc-client@0.0.5:
-    resolution: {integrity: sha512-H+FEx6vpIYm4hxcEpiSbaTpAKtLQZ4KTr4nowcNdEXKH7brb+ndG0skcMP8bii6TrImnBA//AqUNssHx83gnsA==}
+  thingy-post-rpc-client@0.0.6:
+    resolution: {integrity: sha512-Sk5DCZPCqyL1pDTUT5QynhugfYV0FJEyzEZqU8p83QCDO/xBL4JrhWsg24EmohUuwZzv0umpIAEwaAk6iq2hNQ==}
 
-  thingy-rpc-authmaster-client@0.0.8:
-    resolution: {integrity: sha512-ekedkTBgXIuABg1GcJnvb/aWXchgrcls/7RfEQzwgfbGhOnHtyeT9SV8OaxHpRh6gk+M/ufpyS8qahZqLimzeQ==}
+  thingy-rpc-authmaster-client@0.0.9:
+    resolution: {integrity: sha512-W9ecgcIxSf6BKcMZL/l4sJFms0pw8L8WziU3n/1fJzyCYBhY7vtxib6RFkTxYBN7VbSYC87iQZpnuA8WvWvFeQ==}
 
   thingy-session-utils@0.0.5:
     resolution: {integrity: sha512-LkZc5gT6NAhUG4WxtchygmPDSx2oukV2cQ63n3+Zym1tAGjUsUe2bg6pJB2++afA7pKbW64nZwgMYTSa8OAkaA==}
@@ -5340,7 +5340,7 @@ snapshots:
       meow: 10.1.5
       mustache: 4.2.0
 
-  thingy-post-rpc-client@0.0.5:
+  thingy-post-rpc-client@0.0.6:
     dependencies:
       feistelled-reduced-aes-core: 0.0.1
       secret-manager-crypto-utils: 0.3.0
@@ -5348,9 +5348,9 @@ snapshots:
       thingy-session-utils: 0.0.5
       validatabletimestamp: 0.0.1
 
-  thingy-rpc-authmaster-client@0.0.8:
+  thingy-rpc-authmaster-client@0.0.9:
     dependencies:
-      thingy-post-rpc-client: 0.0.5
+      thingy-post-rpc-client: 0.0.6
 
   thingy-session-utils@0.0.5:
     dependencies:
